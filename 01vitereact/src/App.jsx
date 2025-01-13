@@ -1,12 +1,11 @@
-import { useState } from 'react'
-
+import Cus1 from "./cus1"
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-   <>
-   <h1>"hello vite react"</h1>
-   </>
+    <>
+    <div>it should return only one element</div>
+    <Cus1/>
+    </>
   )
 }
 
